@@ -1,0 +1,17 @@
+# Clone repository yang baru dibuat
+git clone https://github.com/BaksoAANMUDA/bakso-aan-muda.git
+
+# Masuk ke direktori proyek
+cd bakso-aan-muda
+
+# Buat file atau tambahkan konten website Anda di dalam folder ini
+echo "# Website Bakso AAN MUDA" >> README.md
+
+# Tambahkan file ke repository
+git add .
+
+# Commit perubahan dengan pesan
+git commit -m "Initial commit for Bakso AAN MUDA website"
+
+# Push perubahan ke GitHub
+git push origin main
